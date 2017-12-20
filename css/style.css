@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+}
+
+
+#content {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 25%;
+margin-left: -50%;
+}
+#searchform{
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+margin-left: -50%;
+
+}
+#mikrofon {
+  background: url(data:./img/mikro.png);
+  background-size: 24px 24px;
+  vertical-align: middle;
+}
+p {
+  color: red;
+  text-align: center;
+}
+.header ul {
+    list-style-type: none;
+    margin-right: 2%;
+    padding: 0;
+    overflow:hidden;
+    margin-top: 1.2%;
+}
+.header img {
+  background-size: 32px 32px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  margin-top: -12%;
+ }
+ .header #apps{
+  border-radius: 0%;
+  height: 20px;
+  width: 20px;
+  opacity: .85;
+  display: inline-block;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 2px;
+ }
+
+.header li {
+  float: right;
+  padding: 8px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #444444;
+}
+
+.header a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+#search {
+  width: 575px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button {
+  margin: 14px 5px;
+  padding: 9px 15px;
+  font-weight: bold;
+  border: none;
+  background-color: #f2f2f2;
+  color: #757575;
+}
